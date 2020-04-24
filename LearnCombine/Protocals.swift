@@ -7,3 +7,9 @@
 //
 
 import Foundation
+import Combine
+import UIKit
+
+protocol WithImage{
+    func imagePublisher() -> AnyPublisher<UIImage?,Never>
+}

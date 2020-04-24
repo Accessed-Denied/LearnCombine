@@ -15,6 +15,8 @@
 		22394010245352AE00A717BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2239400E245352AE00A717BC /* LaunchScreen.storyboard */; };
 		2239401B245352AF00A717BC /* LearnCombineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2239401A245352AF00A717BC /* LearnCombineTests.swift */; };
 		22394026245352AF00A717BC /* LearnCombineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22394025245352AF00A717BC /* LearnCombineUITests.swift */; };
+		223940342453538800A717BC /* Protocals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223940332453538800A717BC /* Protocals.swift */; };
+		22394036245353A400A717BC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22394035245353A400A717BC /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		22394021245352AF00A717BC /* LearnCombineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnCombineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22394025245352AF00A717BC /* LearnCombineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnCombineUITests.swift; sourceTree = "<group>"; };
 		22394027245352AF00A717BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		223940332453538800A717BC /* Protocals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocals.swift; sourceTree = "<group>"; };
+		22394035245353A400A717BC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				2239400C245352AE00A717BC /* Assets.xcassets */,
 				2239400E245352AE00A717BC /* LaunchScreen.storyboard */,
 				22394011245352AE00A717BC /* Info.plist */,
+				223940332453538800A717BC /* Protocals.swift */,
+				22394035245353A400A717BC /* Extensions.swift */,
 			);
 			path = LearnCombine;
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22394036245353A400A717BC /* Extensions.swift in Sources */,
 				22394008245352A400A717BC /* ViewController.swift in Sources */,
+				223940342453538800A717BC /* Protocals.swift in Sources */,
 				22394004245352A400A717BC /* AppDelegate.swift in Sources */,
 				22394006245352A400A717BC /* SceneDelegate.swift in Sources */,
 			);

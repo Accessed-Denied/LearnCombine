@@ -7,14 +7,23 @@
 //
 
 import UIKit
+import Combine
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var downImage: UIImageView!
+    private var imageSubscriber: AnyCancellable?
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        imageSubscriber = ""
+            .imagePublisher()
+            .assign(to: \.image, on: downImage)
     }
 
 
 }
+
+
+
 
