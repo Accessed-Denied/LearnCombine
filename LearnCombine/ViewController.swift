@@ -16,9 +16,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        imageSubscriber = ""
+        imageSubscriber = "https://wallpaperaccess.com/download/minion-27836"
             .imagePublisher()
             .assign(to: \.image, on: downImage)
+        
     }
 
 
