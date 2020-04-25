@@ -16,16 +16,11 @@ or alternatively using `brew cask install fastlane`
 
 # Available Actions
 ## iOS
-### ios tests
-```
-fastlane ios tests
-```
-Combine running app tests
 ### ios beta
 ```
 fastlane ios beta
 ```
-Use this lane to deploy beta version of app
+Push a new beta build to TestFlight
 
 ----
 
